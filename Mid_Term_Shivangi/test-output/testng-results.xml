@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-17T13:26:59 GMT-04:00" name="Default suite" finished-at="2022-03-17T13:27:14 GMT-04:00" duration-ms="14395">
+    <groups>
+    </groups>
+    <test started-at="2022-03-17T13:26:59 GMT-04:00" name="Default test" finished-at="2022-03-17T13:27:14 GMT-04:00" duration-ms="14395">
+      <class name="Hello.Login">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:Hello.Login@172ca72b]" started-at="2022-03-17T13:26:59 GMT-04:00" name="LaunchBrowser" finished-at="2022-03-17T13:27:02 GMT-04:00" duration-ms="2827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="checkwithWrongValues()[pri:-1, instance:Hello.Login@172ca72b]" started-at="2022-03-17T13:27:02 GMT-04:00" name="checkwithWrongValues" finished-at="2022-03-17T13:27:03 GMT-04:00" duration-ms="876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkwithWrongValues -->
+        <test-method signature="checkwithCorrectValues()[pri:0, instance:Hello.Login@172ca72b]" started-at="2022-03-17T13:27:03 GMT-04:00" name="checkwithCorrectValues" finished-at="2022-03-17T13:27:04 GMT-04:00" duration-ms="970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkwithCorrectValues -->
+        <test-method signature="registerapatient()[pri:1, instance:Hello.Login@172ca72b]" started-at="2022-03-17T13:27:04 GMT-04:00" name="registerapatient" finished-at="2022-03-17T13:27:05 GMT-04:00" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerapatient -->
+        <test-method signature="name()[pri:2, instance:Hello.Login@172ca72b]" started-at="2022-03-17T13:27:05 GMT-04:00" name="name" finished-at="2022-03-17T13:27:13 GMT-04:00" duration-ms="7606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+        <test-method signature="logout()[pri:3, instance:Hello.Login@172ca72b]" started-at="2022-03-17T13:27:13 GMT-04:00" name="logout" finished-at="2022-03-17T13:27:14 GMT-04:00" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Hello.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
